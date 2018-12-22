@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qotrunnadawidadu.tugasakhir">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logolucu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logolucu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".PemainFragment" />
+        <activity android:name=".ClubFragment" />
+        <activity android:name=".SejarahFragment" />
+        <activity android:name=".DetailClub" />
+    </application>
+
+</manifest>
